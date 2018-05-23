@@ -1,0 +1,111 @@
+header #header-bar>.row {
+border-top: 5px solid #ff82df;
+    background-color: #ffd3f3;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #ff82df;
+}
+
+header .row > div:nth-child(1) > a img {
+    opacity: 0;
+}
+header .row>div:nth-child(1)>a {
+    display: block;
+    height: 50px;
+    background: url(http://MinhyukJeong.github.io/soopgether.png) no-repeat;
+    background-size: auto 70px;
+}
+
+#main .menu-wrapper>.header {
+    background: #ff82df;
+}
+
+#article-list>.article-list-row:first-of-type {
+    border-top: 2px solid #ff82df;
+}
+
+#article-content-wrapper>.header {
+    border-top: 2px solid #ff82df;
+    background: #ffd3f3;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff82df;
+    border-color: #ff82df;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #ff82df;
+border-color: #ff82df;
+  }
+  50% {
+    background-color: #ffd3f3;
+border-color: #ffd3f3;
+  }
+
+ 100% {
+    background-color: #ff82df;
+border-color: #ff82df;
+  }
+}
+
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: #848484;
+}
+
+header #right-search-form>input[type=text] {
+    border: 3px solid #ff82df;
+}
+
+header #right-search-form>#right-search-btn {
+    color: #ff82df;
+}
+
+a {
+    color: #ff82df;
+    text-decoration: none;
+}
+
+#main .menu-wrapper>a>i.fa.fa-square {
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.1em;
+    color: #ffd3f3;
+    vertical-align: 0.2em;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>span, .pagination>.active>span:focus {
+    background-color: #ff82df;
+    border-color: #ff82df;
+}
+
+.pagination>.active>a:hover, .pagination>.active>span:hover{
+animation: pulse 1s infinite;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #ff82df;
+}
+
+.pagination>li>a, .pagination>li>span {
+    border: 1px solid #ffd3f3;
+}
+
+#article-list #article-list-category {
+    border-top: 2px solid #ff82df;
+    background: #f6f0ff;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #ff82df;
+
+}
