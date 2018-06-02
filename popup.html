@@ -19,8 +19,9 @@
    
     <script src="jquery-3.3.1.min.js">
    $.ajax({
+     type: 'post',
       url: "https://www.naver.com/",
-      dataType: 'jsonp',
+      dataType: 'html',
       success: function(data) {
         console.log('success - ', data);
       },
