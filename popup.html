@@ -17,7 +17,18 @@
     </style>
 
    
-    <script src="popup.js"></script>
+    <script>
+   $.ajax({
+      url: "https://URL/",
+      dataType: 'jsonp',
+      success: function(data) {
+        console.log('success - ', data);
+      },
+      error: function(xhr) {
+        console.log('failure - ', xhr);
+      }
+    });
+</script>
   </head>
   <body>
   </body>
