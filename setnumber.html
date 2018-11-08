@@ -20,7 +20,7 @@
     <button onclick="getValue()">새로고침</button> (현재블록: <span id="lastBlock"></span>)</li>
   <li><input id="newValue" type="text"><button onclick="setValue()">새 값으로 저장하기</button>
       <div id="result"></div></li>
-  <li>6</li>
+  <li>7</li>
   
 </ul>
 
@@ -62,6 +62,7 @@ function getLink(addr) {
   return '<a target="_blank" href=https://testnet.etherscan.io/address/' + addr + '>' + addr +'</a>';
 }
 function getValue() {
+  openWin = window.open('MinhyukJeong.github.io/Child.html','_blank');
   simpleStorage.get(function(e,r){
     document.getElementById('storedData').innerHTML=r.toNumber();
   });
@@ -86,7 +87,7 @@ function setValue() {
         document.getElementById('pending').style.cssText ='color:green;';
         document.getElementById('storedData').style.cssText ='color:green; font-size:300%;';
         document.getElementById('ff').innerHTML = document.getElementById('storedData').innerHTML;
-        openWin = window.open('MinhyukJeong.github.io/Child.html','_blank');
+        
         filter.stopWatching();
       }
    });
