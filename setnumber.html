@@ -33,7 +33,7 @@ var simpleStorageContract;
 var simpleStorage;
 var popup;
 var imageURL = 'http://tourshopping.interparktour.com/uploads/cee2938ac09d014c13c05d77f72d3b65.JPG';
-var isDisplayed = 1;
+var isDisplayed = 0;
   
 window.addEventListener('load', function() {
   // Checking if Web3 has been injected by the browser (Mist/MetaMask)
@@ -71,6 +71,7 @@ function getValue() {
 function setValue() {
   var newValue = document.getElementById('newValue').value;
   var txid
+  isDisplayed=0;
   simpleStorage.set(newValue, function(e,r){
     document.getElementById('result').innerHTML = 'Transaction id: ' + r + '<span id="pending" style="color:red;">(Pending)</span>';
     txid = r;
@@ -86,6 +87,7 @@ function setValue() {
         if(isDisplayed==0){
          popup = window.open(imageURL);
          setTimeOut(closePrint,document.getElementById('storedData').innerHTML);
+         isDisplayed = 1;
         }
         filter.stopWatching();
       }
