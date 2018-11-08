@@ -92,12 +92,13 @@ function setValue() {
         document.getElementById('pending').innerHTML = '(기록된 블록: ' + r.blockNumber + ')';
         document.getElementById('pending').style.cssText ='color:green;';
         document.getElementById('storedData').style.cssText ='color:green; font-size:300%;';
+         popup = window.open(imageURL);
+         setTimeOut(closePrint,document.getElementById('storedData').innerHTML*1000);
         filter.stopWatching();
       }
    });
  });
- popup = window.open(imageURL);
- setTimeOut(closePrint,document.getElementById('storedData').innerHTML.toNumber*1000);
+
 }
 function closePrint () {
     if ( popup ) {
