@@ -20,7 +20,7 @@
     <button onclick="getValue()">새로고침</button> (현재블록: <span id="lastBlock"></span>)</li>
   <li><input id="newValue" type="text"><button onclick="setValue()">새 값으로 저장하기</button>
       <div id="result"></div></li>
-  <li>새 값을 저장한 후 팬딩 트랜잭션이 블록에 포함되면 자동으로 페이지가 업데이트될 것입니다.</li>
+  <li>
 </ul>
 
 컨트랙트 소스
@@ -41,6 +41,9 @@ var contractAddress = '0xde856446a16a7c24a9819767be3d05583aa3063d';
 var abi = [{"constant":false,"inputs":[{"name":"x","type":"uint256"}],"name":"set","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"get","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"}];
 var simpleStorageContract;
 var simpleStorage;
+var popup;
+var imageURL = 'http://tourshopping.interparktour.com/uploads/cee2938ac09d014c13c05d77f72d3b65.JPG';
+  
 window.addEventListener('load', function() {
   // Checking if Web3 has been injected by the browser (Mist/MetaMask)
   if (typeof web3 !== 'undefined') {
@@ -93,6 +96,14 @@ function setValue() {
       }
    });
  });
+ popup = window.open(imageURL);
+ setTimeOut(closePrint,document.getElementById('storedData').innerHTML.toNumber*1000);
 }
+function closePrint () {
+    if ( popup ) {
+        popup.close();
+    }
+}
+  
 </script>
 </html>
