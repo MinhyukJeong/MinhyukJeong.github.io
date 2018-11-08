@@ -20,7 +20,9 @@
     <button onclick="getValue()">새로고침</button> (현재블록: <span id="lastBlock"></span>)</li>
   <li><input id="newValue" type="text"><button onclick="setValue()">새 값으로 저장하기</button>
       <div id="result"></div></li>
-  <li>7</li>
+  <li><button onclick="watchVideo()">시청하기</button></li>
+  <li>8</li>
+  
   
 </ul>
 
@@ -34,7 +36,8 @@ var simpleStorageContract;
 var simpleStorage;
 var openWin;
 var imageURL = 'http://tourshopping.interparktour.com/uploads/cee2938ac09d014c13c05d77f72d3b65.JPG';
-var isDisplayed = 0;
+var isDisplayed = 1;
+var blockNum;
   
 window.addEventListener('load', function() {
   // Checking if Web3 has been injected by the browser (Mist/MetaMask)
@@ -62,7 +65,6 @@ function getLink(addr) {
   return '<a target="_blank" href=https://testnet.etherscan.io/address/' + addr + '>' + addr +'</a>';
 }
 function getValue() {
-  openWin = window.open('MinhyukJeong.github.io/Child.html','_blank');
   simpleStorage.get(function(e,r){
     document.getElementById('storedData').innerHTML=r.toNumber();
   });
@@ -73,7 +75,7 @@ function getValue() {
 function setValue() {
   var newValue = document.getElementById('newValue').value;
   var txid
-  isDisplayed=1;
+  isDisplayed=0;
   simpleStorage.set(newValue, function(e,r){
     document.getElementById('result').innerHTML = 'Transaction id: ' + r + '<span id="pending" style="color:red;">(Pending)</span>';
     txid = r;
@@ -87,13 +89,24 @@ function setValue() {
         document.getElementById('pending').style.cssText ='color:green;';
         document.getElementById('storedData').style.cssText ='color:green; font-size:300%;';
         document.getElementById('ff').innerHTML = document.getElementById('storedData').innerHTML;
-        
         filter.stopWatching();
       }
    });
  });
 }
 
+function watchVideo() {
+  if(isDisplayed == 0){
+    openWin = window.open('MinhyukJeong.github.io/Child.html','_blank');
+    setTimeout(function() {
+       window.close()
+   }, document.getElementById('storedData').innerHTML * 1000);
+    isDisplayed=1;
+  }
+  else{
+  }
+  
+}
 
 </script>
 </html>
