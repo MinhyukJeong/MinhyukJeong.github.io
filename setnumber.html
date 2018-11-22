@@ -98,7 +98,7 @@ function watchVideo() {
   getValue();
   var watchTime = document.getElementById('storedData').innerHTML * 1000;
   if(isDisplayed == 0){
-    openWin = window.open('http://admin@117.17.158.187/video.cgi','_blank');
+    openWin = window.open('http://admin@117.17.158.187:62000/video.cgi','_blank');
     setTimeout(function() {
        openWin.close();
    },watchTime);
