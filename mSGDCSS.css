@@ -7,6 +7,10 @@ header>#header-area>a>h1 {
     background: url(http://MinhyukJeong.github.io/sgd_logo_mobile_orange.png) no-repeat;
 }
 
+nav#nav>.nav-header {
+    background: #ff8e43;
+}
+
 #header-top-notice strong.notice-badge {
     background: #ff8e43;
 }
