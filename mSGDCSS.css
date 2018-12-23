@@ -77,6 +77,14 @@ span[data-param1='JKanStyle']:hover>img, span[data-param1='JKanStyle']>img {
     background-position: center;
 }
 
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+    color: #ff8e43;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    color: #682b03;
+}
+
 #article-content-wrapper #article-content img[alt='JKanStyle'], img[alt='JKanStyle'] {
     width: 60px;
     height: 60px !important;
