@@ -596,3 +596,23 @@ span[data-param1='BCWarrior']:hover>img, span[data-param1='BCWarrior']>img {
     background-size: 80px;
     background-position: center;
 }
+
+/* 답답 */
+span[data-param1='GingerPower']:hover>img, span[data-param1='GingerPower']>img {
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+    background: url(https://minhyukjeong.github.io/dapdap.gif) no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='GingerPower'], img[alt='GingerPower'] {
+    width: 60px;
+    height: 60px !important;
+    padding-left: 60px;
+    background: url(https://minhyukjeong.github.io/dapdap.gif) no-repeat;
+    background-size: 80px;
+    background-position: center;
+}
+
