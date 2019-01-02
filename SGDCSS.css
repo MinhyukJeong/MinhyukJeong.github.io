@@ -279,7 +279,7 @@ span.a-badge i.fa.fa-star {
 #article-list > .article-list-row.notice:hover, #article-list>.article-list-row.hot:hover { animation: 0.2s anim_hovered_background forwards ease-in; }
 @keyframes anim_hovered_background {
      from { background-color: #f3f3f3; }
-     to {background-color: #fa7268; }
+     to {background-color: #fcd4d1; }
     }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
