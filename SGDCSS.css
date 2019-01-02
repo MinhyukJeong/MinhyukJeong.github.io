@@ -3,7 +3,7 @@
 body {
     width: 100% !important;
     height: auto;
-    background: linear-gradient(180deg, #ffffff 0%,  #ffffff 65% ,#ff8e43 100%);
+    background: linear-gradient(180deg, #ffffff 0%,  #ffffff 65% ,#fa7268 100%);
     background-size: 400% 400%;
 
     -webkit-animation: backback 20s ease infinite;
@@ -31,30 +31,30 @@ body {
 }
 
 ::selection {
-    background:#ff8e43;
+    background:#fa7268;
     color: #FFF;
     text-shadow: none;
 }
 ::-moz-selection {
-    background:#ff8e43;
+    background:#fa7268;
     color: #FFF;
     text-shadow: none;
 }
 ::-webkit-selection {
-    background:#ff8e43;
+    background:#fa7268;
     color: #FFF;
     text-shadow: none;
 }
 
 header #header-bar>.row {
-    border-top: 5px solid #ff8e43;
-    background-color: #ffefe4;
+    border-top: 5px solid #fa7268;
+    background-color: #fcd4d1;
     box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2);
     border-radius: 0 0 15px 15px;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
-    background: #ffefe4;
+    background: #fcd4d1;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
@@ -64,17 +64,17 @@ header #header-bar>.row {
 
 #article-list>.article-list-row.hot {
 background: rgba(255,142,67,1);
-background: -moz-linear-gradient(30deg, rgba(255,142,67,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
-background: -webkit-gradient(30deg, right top, color-stop(0%, rgba(255,142,67,1)), color-stop(15%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
-background: -webkit-linear-gradient(30deg, rgba(255,142,67,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
-background: -o-linear-gradient(30deg, rgba(255,142,67,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
-background: -ms-linear-gradient(30deg, rgba(255,142,67,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
-background: linear-gradient(30deg, rgba(255,142,67,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8e43', endColorstr='#ffffff', GradientType=1 );
+background: -moz-linear-gradient(30deg, rgba(250,114,104,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(30deg, right top, color-stop(0%, rgba(250,114,104,1)), color-stop(15%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(30deg, rgba(250,114,104,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(30deg, rgba(250,114,104,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(30deg, rgba(250,114,104,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
+background: linear-gradient(30deg, rgba(250,114,104,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa7268', endColorstr='#ffffff', GradientType=1 );
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background: #ff8e43;
+    background: #fa7268;
 }
 
 header .row > div:nth-child(1) > a img {
@@ -83,29 +83,29 @@ header .row > div:nth-child(1) > a img {
 header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
-    background: url(http://MinhyukJeong.github.io/sgd_logo_orange.png) no-repeat;
+    background: url(http://MinhyukJeong.github.io/sgd_logo_pink.png) no-repeat;
     background-size: auto 70px;
 margin-top: 5px;
 }
 
 #main .menu-wrapper>.header {
-    background: #ff8e43;
+    background: #fa7268;
     border-radius: 10px 10px 0 0;
 }
 
 #article-list>.article-list-row:first-of-type {
-    border-top: 2px solid #ff8e43;
+    border-top: 2px solid #fa7268;
 }
 
 #article-content-wrapper>.header {
-    border-top: 2px solid #ff8e43;
-    background: #ffefe4;
+    border-top: 2px solid #fa7268;
+    background: #fcd4d1;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #ff8e43;
-    border-color: #ff8e43;
+    background-color: #fa7268;
+    border-color: #fa7268;
 }
 
 .btn-primary:hover {
@@ -115,17 +115,17 @@ margin-top: 5px;
 
 @keyframes pulse {
   0% {
-    background-color: #ff8e43;
-border-color: #ff8e43;
+    background-color: #fa7268;
+border-color: #fa7268;
   }
   50% {
-    background-color: #ffefe4;
-border-color: #ffefe4;
+    background-color: #fcd4d1;
+border-color: #fcd4d1;
   }
 
  100% {
-    background-color: #ff8e43;
-border-color: #ff8e43;
+    background-color: #fa7268;
+border-color: #fa7268;
   }
 }
 
@@ -134,15 +134,15 @@ border-color: #ff8e43;
 }
 
 header #right-search-form>input[type=text] {
-    border: 3px solid #ff8e43;
+    border: 3px solid #fa7268;
 }
 
 header #right-search-form>#right-search-btn {
-    color: #ff8e43;
+    color: #fa7268;
 }
 
 a {
-    color: #ff8e43;
+    color: #fa7268;
     text-decoration: none;
 }
 
@@ -151,13 +151,13 @@ a {
     display: inline-block;
     text-align: center;
     font-size: 0.1em;
-    color: #ff8e43;
+    color: #fa7268;
     vertical-align: 0.2em;
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>span, .pagination>.active>span:focus {
-    background-color: #ff8e43;
-    border-color: #ff8e43;
+    background-color: #fa7268;
+    border-color: #fa7268;
 }
 
 .pagination>.active>a:hover, .pagination>.active>span:hover{
@@ -165,30 +165,30 @@ animation: pulse 1s infinite;
 }
 
 .pagination>li>a, .pagination>li>span {
-    color: #ff8e43;
+    color: #fa7268;
 }
 
 .pagination>li>a, .pagination>li>span {
-    border: 1px solid #ffefe4;
+    border: 1px solid #fcd4d1;
 }
 
 #article-list #article-list-category {
-    border-top: 2px solid #ff8e43;
+    border-top: 2px solid #fa7268;
     border-left: 1px solid #ffffff;
     border-right: 1px solid #ffffff;
 
     background: rgba(255,255,255,1);
-background: -moz-linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(255,142,67,1) 100%);
-background: -webkit-gradient(30deg, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(85%, rgba(255,255,255,1)), color-stop(100%, rgba(255,142,67,1)));
-background: -webkit-linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(255,142,67,1) 100%);
-background: -o-linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(255,142,67,1) 100%);
-background: -ms-linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(255,142,67,1) 100%);
-background: linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(255,142,67,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ff8e43', GradientType=1 );
+background: -moz-linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(250,114,104,1) 100%);
+background: -webkit-gradient(30deg, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(85%, rgba(250,114,104,1)), color-stop(100%, rgba(255,142,67,1)));
+background: -webkit-linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(250,114,104,1) 100%);
+background: -o-linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(250,114,104,1) 100%);
+background: -ms-linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(250,114,104,1) 100%);
+background: linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(250,114,104,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fa7268', GradientType=1 );
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
-    background-color: #ff8e43;
+    background-color: #fa7268;
 }
 
 #board-info #viewers-area {
@@ -196,7 +196,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .badge {
-    background-color: #ff8e43;
+    background-color: #fa7268;
 }
 
 
@@ -206,7 +206,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
-    color: #ff8e43;
+    color: #fa7268;
 }
 
 header #header-bar {
@@ -215,7 +215,7 @@ height: 44.38px;
 }
 
 header > .container {
-     background: url(https://minhyukjeong.github.io/soopwelcome.png) no-repeat center bottom;
+     background: url(https://minhyukjeong.github.io/soopwelcome_p.png) no-repeat center bottom;
 background-position: 60%;
 background-size:  auto 76px;
 height: 76px;
@@ -247,13 +247,13 @@ margin-top: 5px;
 }
 
 #main .menu-wrapper .spacer {
-    background: #ffefe4;
+    background: #fcd4d1;
     display: block;
     height: 0.35em;
 }
 
 #main .menu-wrapper>a>em {
-    color: #ff8e43;
+    color: #fa7268;
 }
 
 span.a-badge i.fa.fa-star { 
@@ -279,7 +279,7 @@ span.a-badge i.fa.fa-star {
 #article-list > .article-list-row.notice:hover, #article-list>.article-list-row.hot:hover { animation: 0.2s anim_hovered_background forwards ease-in; }
 @keyframes anim_hovered_background {
      from { background-color: #f3f3f3; }
-     to {background-color: #ffca95; }
+     to {background-color: #fa7268; }
     }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
@@ -326,8 +326,8 @@ justify-content: flex-end;
 }
 
 #article-content-wrapper>.footer {
-    background: #ffefe4;
-    border-bottom: 2px solid #ff8e43;
+    background: #fcd4d1;
+    border-bottom: 2px solid #fa7268;
 }
 
 
