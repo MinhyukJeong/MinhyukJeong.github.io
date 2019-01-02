@@ -1,27 +1,27 @@
 header {
-    border-bottom-color: #ff8e43 !important;
-    background: #ffefe4 !important;
+    border-bottom-color: #fa7268 !important;
+    background: #ffe1e0 !important;
 }
 
 header>#header-area>a>h1 {
-    background: url(http://MinhyukJeong.github.io/sgd_logo_mobile_orange.png) no-repeat;
+    background: url(http://MinhyukJeong.github.io/sgd_logo_mobile_pink.png) no-repeat;
 }
 
 nav#nav>.nav-header {
-    background: #ff8e43;
+    background: #fa7268;
 }
 
 #header-top-notice strong.notice-badge {
-    background: #ff8e43;
+    background: #fa7268;
 }
 
 header>#header-area>#header-search-link {
-    color: #ff8e43;
+    color: #fa7268;
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>span, .pagination>.active>span:focus {
-    background-color: #ff8e43;
-    border-color: #ff8e43;
+    background-color: #fa7268;
+    border-color: #fa7268;
 }
 
 .pagination>.active>a:hover, .pagination>.active>span:hover{
@@ -29,38 +29,38 @@ animation: pulse 1s infinite;
 }
 @keyframes pulse {
   0% {
-    background-color: #ff8e43;
-border-color: #ff8e43;
+    background-color: #fa7268;
+border-color: #fa7268;
   }
   50% {
-    background-color: #ffefe4;
-border-color: #ffefe4;
+    background-color: #ffe1e0;
+border-color: #ffe1e0;
   }
 
  100% {
-    background-color: #ff8e43;
-border-color: #ff8e43;
+    background-color: #fa7268;
+border-color: #fa7268;
   }
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #ff8e43;
-    border-color: #ff8e43;
+    background-color: #fa7268;
+    border-color: #fa7268;
 }
 
 .pagination>li>a, .pagination>li>span {
-    color: #ff8e43;
+    color: #fa7268;
 }
 
 #board-info {
-    border-top: 4px solid #ff8e43;
-    background: #ffefe4;
+    border-top: 4px solid #fa7268;
+    background: #ffe1e0;
     max-height: 46px;
 }
 
 #article-list > .article-list-row.notice {
-    background: #ffefe4 !important;
+    background: #ffe1e0 !important;
 }
 
 #article-list #article-list-category {
@@ -82,7 +82,7 @@ span[data-param1='JKanStyle']:hover>img, span[data-param1='JKanStyle']>img {
 }
 
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
-    color: #ff8e43;
+    color: #fa7268;
 }
 
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
@@ -246,6 +246,25 @@ span[data-param1='BCWarrior']:hover>img, span[data-param1='BCWarrior']>img {
     height: 60px !important;
     padding-left: 60px;
     background: url(https://minhyukjeong.github.io/soopalie.gif) no-repeat;
+    background-size: 80px;
+    background-position: center;
+}
+
+/* 답답 */
+span[data-param1='GingerPower']:hover>img, span[data-param1='GingerPower']>img {
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+    background: url(https://minhyukjeong.github.io/dapdap.gif) no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='GingerPower'], img[alt='GingerPower'] {
+    width: 60px;
+    height: 60px !important;
+    padding-left: 60px;
+    background: url(https://minhyukjeong.github.io/dapdap.gif) no-repeat;
     background-size: 80px;
     background-position: center;
 }
