@@ -24,6 +24,11 @@ body {
     100%{background-position:50% 0%}
 }
 
+span.a-badge i.fa.fa-info-circle {
+    color: #fa7268;
+    vertical-align: -2px !important;
+}
+
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
     color: #682b03;
 }
